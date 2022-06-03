@@ -1,11 +1,11 @@
 :root {
-    --darkest-color: #552157;
-    --lightest-color: 	#e9e8db;
-    --highlight-color:	#e0c8ba;
-    --bright-color-1: #e0c8ba;
-    --bright-color-2: 	#c264aa;
-    --bright-color-3: #8c4c71;
-    --bright-color-4: #c264aa;
+    --darkest-color:#2d768d;
+    --lightest-color: #e9e8db;
+    --highlight-color: #dd9e81;
+    --bright-color-1:#2bb4aa;
+    --bright-color-2:	#81dd91;
+    --bright-color-3:#f9f871;
+    --bright-color-4: #af8baf;
   }
   
   body {
@@ -34,10 +34,12 @@
   }
   
   .profile-pic {
-    display:flex;
-    margin: 0 auto;
+    display: block;
+    margin: auto;
     height: 100%;
     width: auto;
+    background-size: cover;
+   
   }
   
   a {
@@ -96,3 +98,4 @@
   .bright {
     background: var(--bright-color-4);
   }
+  
